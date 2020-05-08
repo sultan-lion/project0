@@ -1,0 +1,57 @@
+table {
+  width: 50%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: lightblue;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+.link {
+  background-color: lightgray;
+}
+
+.navmenu, .navhome {
+  margin: 20px;
+}
+
+.navhome {
+  color: red;
+}
+
+ul li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.mycard, .myredcard {
+  background-color: teal;
+  color: white;
+  margin: 5px;
+  padding: 20px;
+}
+
+.myredcard {
+  color: red;
+  background-color: lightgray;
+}
+
+#index {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

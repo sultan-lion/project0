@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/index.css" rel="stylesheet">
+        <style media="screen">
+          @media (min-width: 800px) {
+            h1::before {
+              content: "Finance page";
+            }
+          }
+          @media (max-width: 799px) {
+            h1::before {
+              content: "Finance page on a mobile device";
+            }
+          }
+        </style>
+    </head>
+    <body>
+        <h1></h1>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6"><div class=mycard>Banking</div></div>
+            <div class="col-lg-4 col-sm-6"><div class=mycard>Corporate finance</div></div>
+            <div class="col-lg-4 col-sm-6"><div class=mycard>Personal finance</div></div>
+            <div class="col-lg-4 col-sm-6"><div class=mycard>Economics and finance</div></div>
+            <div class="col-lg-4 col-sm-6"><div class=myredcard>Behavioural economics</div></div>
+        </div>
+      </div>
+            <div class="container-fluid navmenu">
+              <div class="row">
+                <div class="col-4" id="index"><a href="index.html">Go back to Home</a></div>
+                <div class="col-4"><a href="technology.html">Go to technology page</a></div>
+                <div class="col-4"><a href="languages.html">Go to languages page</a></div>
+              </div>
+          </div>
+    </body>
+</html>
